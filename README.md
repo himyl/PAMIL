@@ -1,5 +1,6 @@
+# PAGAE
+Code for CogSCi 2023 paper "PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary"
 
-Code for CogSCi 2023 paper ""
 ![model](./img/model.png)
 
 ## Citation
