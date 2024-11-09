@@ -14,3 +14,11 @@ https://www.researchgate.net/profile/Gongju-Wang/publication/375596500_PAGAE_Imp
 }
 ```
 
+Here we provide an implementation of PAGAE/{PAGAE}$_{PO}$ in PyTorch, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
+- `data/` contains the necessary dataset files;
+- `results/` contains the embedding results;
+- `layers.py` contains the implementation of a GCN layer;
+- `utils.py` contains the necessary processing function.
+- `model.py` contains the implementation of a GAE model, discriminator model and mutual information estimator model.
+- `optimizer.py` contains the implementation of the reconstruction loss.
+
