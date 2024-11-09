@@ -5,4 +5,12 @@ https://www.researchgate.net/profile/Gongju-Wang/publication/375596500_PAGAE_Imp
 ![model](./img/model.png)
 
 ## Citation
+```
+@inproceedings{wang2023pagae,
+  title={PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary.},
+  author={Wang, Gongju and Li, Mengyao and Feng, Hanbin and Yan, Long and Song, Yulun and Li, Yang and Song, Yinghao},
+  booktitle={CogSci},
+  year={2023}
+}
+```
 
