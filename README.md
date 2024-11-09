@@ -1,5 +1,5 @@
-# PAGAE
-Code for CogSCi 2023 paper "PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary"
+# PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary"
+
 https://www.researchgate.net/profile/Gongju-Wang/publication/375596500_PAGAE_Improving_Graph_Autoencoder_by_Dual_Enhanced_Adversary/links/6551947cb1398a779d7f4bd6/PAGAE-Improving-Graph-Autoencoder-by-Dual-Enhanced-Adversary.pdf
 
 ![model](./img/model.png)
@@ -14,7 +14,8 @@ https://www.researchgate.net/profile/Gongju-Wang/publication/375596500_PAGAE_Imp
 }
 ```
 
-Here we provide an implementation of PAGAE/{PAGAE}$_{PO}$ in PyTorch, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
+## Overview
+Here we provide an implementation of PAGAE/PAGAEpo in PyTorch, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
 - `data/` contains the necessary dataset files;
 - `results/` contains the embedding results;
 - `layers.py` contains the implementation of a GCN layer;
