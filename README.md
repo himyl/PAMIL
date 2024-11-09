@@ -1,6 +1,8 @@
-# PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary
+# PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary (CogSci 2023)
 
-https://www.researchgate.net/profile/Gongju-Wang/publication/375596500_PAGAE_Improving_Graph_Autoencoder_by_Dual_Enhanced_Adversary/links/6551947cb1398a779d7f4bd6/PAGAE-Improving-Graph-Autoencoder-by-Dual-Enhanced-Adversary.pdf
+## PAGAE:
+
+PAGAE is the code for our paper "PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary", which is published in CogSci 2023. 
 
 ![model](./img/model.png)
 
