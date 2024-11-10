@@ -16,6 +16,13 @@ PAGAE is the code for our paper "PAGAE: Improving Graph Autoencoder by Dual Enha
 }
 ```
 
+## Data
+Have a look at the `load_data()` function in `input_data.py` for an example.
+
+In this example, we load citation network data (Cora, Citeseer or Pubmed). The original datasets can be found here: http://linqs.cs.umd.edu/projects/projects/lbc/ and here (in a different format): https://github.com/kimiyoung/planetoid
+
+## Models
+
 ## Overview
 Here we provide an implementation of PAGAE/PAGAEpo in PyTorch, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
 - `data/` contains the necessary dataset files;
