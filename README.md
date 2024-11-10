@@ -31,3 +31,19 @@ Here we provide an implementation of PAGAE/PAGAEpo in PyTorch, along with a mini
 - `model.py` contains the implementation of a GAE model, discriminator model and mutual information estimator model.
 - `optimizer.py` contains the implementation of the reconstruction loss.
 
+### Usage
+For node clustering task:
+```
+$ python train.py --dataset_str cora --hidden1 128 --hidden2 64 --M 2 --epochs 100
+$ python train.py --dataset_str citeseer --hidden1 128 --hidden2 64 --M 2 --epochs 200
+$ python train.py --dataset_str pubmed --hidden1 128 --hidden2 64 --M 2 --epochs 200
+```
+
+For link prediction task:
+```
+$ python train_linkpred.py --dataset_str cora --hidden1 128 --hidden2 64 --M 0 --epochs 100
+$ python train_linkpred.py --dataset_str citeseer --hidden1 128 --hidden2 64 --M 0 --epochs 200
+$ python train_linkpred.py --dataset_str pubmed --hidden1 128 --hidden2 64 --M 0 --epochs 200
+```
+
+
