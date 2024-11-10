@@ -4,7 +4,7 @@
 
 PAGAE is the code for our paper "PAGAE: Improving Graph Autoencoder by Dual Enhanced Adversary", which is published in CogSci 2023. 
 
-![model](./img/model.png)
+![model](./img/model.jpg)
 
 ## Citation
 ```
